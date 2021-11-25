@@ -52,3 +52,15 @@ variable "region" {
   description = "Default region for our VPC"
   type = string
 }
+
+#INSTANCE
+variable "instance_type" {
+  description = "The type of my first server"
+  type = string
+  default = "t2.medium"
+}
+
+variable "keypair_name" {
+  description = "The key pair name"
+  type = string
+}

@@ -14,3 +14,5 @@ private_cidr_b = "192.168.22.0/24"
 private_cidr_c = "192.168.23.0/24"
 
 region = "eu-west-1"
+
+keypair_name = "ta-lab-key"
